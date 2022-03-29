@@ -20,12 +20,12 @@ resources:
     trigger:
       branches:
         include:
-        - master
+        - main
 
 trigger:
   branches:
     include:
-    - master
+    - main
   paths:
     include:
     - diabetes_regression/scoring/parallel_batchscore.py
